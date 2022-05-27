@@ -1,0 +1,184 @@
+{
+  "tests": [
+    {
+      "name": "CartaoTest.existsCartao",
+      "setup": "",
+      "run": "gradle test --tests br.ufrn.imd.CartaoTest.existsCartao",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 1
+    },
+    {
+      "name": "CartaoTest.existsMethodDebitar",
+      "setup": "",
+      "run": "gradle test --tests br.ufrn.imd.CartaoTest.existsMethodDebitar",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 1
+    },
+    {
+      "name": "CartaoTest.existsMethodEstornar",
+      "setup": "",
+      "run": "gradle test --tests br.ufrn.imd.CartaoTest.existsMethodEstornar",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 1
+    },
+    {
+      "name": "CartaoTest.debitar",
+      "setup": "",
+      "run": "gradle test --tests br.ufrn.imd.CartaoTest.debitar",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 1
+    },
+    {
+      "name": "CartaoTest.estornar",
+      "setup": "",
+      "run": "gradle test --tests br.ufrn.imd.CartaoTest.estornar",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 1
+    },
+    {
+      "name": "MetodoPagamentoTest.existsMetodoPagamento",
+      "setup": "",
+      "run": "gradle test --tests br.ufrn.imd.MetodoPagamentoTest.existsMetodoPagamento",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 1
+    },
+    {
+      "name": "MetodoPagamentoTest.metodoPagamentoIsInterface",
+      "setup": "",
+      "run": "gradle test --tests br.ufrn.imd.MetodoPagamentoTest.metodoPagamentoIsInterface",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 1
+    },
+    {
+      "name": "MetodoPagamentoTest.existsMethodDebitar",
+      "setup": "",
+      "run": "gradle test --tests br.ufrn.imd.MetodoPagamentoTest.existsMethodDebitar",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 1
+    },
+    {
+      "name": "MetodoPagamentoTest.existsMethodEstornar",
+      "setup": "",
+      "run": "gradle test --tests br.ufrn.imd.MetodoPagamentoTest.existsMethodEstornar",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 1
+    },
+    {
+      "name": "PixTest.debitar",
+      "setup": "",
+      "run": "gradle test --tests br.ufrn.imd.PixTest.debitar",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 1
+    },
+    {
+      "name": "PixTest.estornar",
+      "setup": "",
+      "run": "gradle test --tests br.ufrn.imd.PixTest.estornar",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 1
+    },
+    {
+      "name": " ProcessadorPagamentosTest.existsProcessadorPagamentos",
+      "setup": "",
+      "run": "gradle test --tests br.ufrn.imd.ProcessadorPagamentosTest.existsProcessadorPagamentos",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 1
+    },
+    {
+      "name": "ProcessadorPagamentosTest.existsMethodProcessar",
+      "setup": "",
+      "run": "gradle test --tests br.ufrn.imd.ProcessadorPagamentosTest.existsMethodProcessar",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 1
+    },
+    {
+      "name": "ProcessadorPagamentosTest.onlyPix",
+      "setup": "",
+      "run": "gradle test --tests br.ufrn.imd.ProcessadorPagamentosTest.onlyPix",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 1
+    },
+    {
+      "name": "ProcessadorPagamentosTest.onlyCartao",
+      "setup": "",
+      "run": "gradle test --tests br.ufrn.imd.ProcessadorPagamentosTest.onlyCartao",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 1
+    },
+    {
+      "name": "ProcessadorPagamentosTest.pixAndCartao",
+      "setup": "",
+      "run": "gradle test --tests br.ufrn.imd.ProcessadorPagamentosTest.pixAndCartao",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 1
+    },
+    {
+      "name": "ProcessadorPagamentosTest.variosCartoes",
+      "setup": "",
+      "run": "gradle test --tests br.ufrn.imd.ProcessadorPagamentosTest.variosCartoes",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 1
+    },
+    {
+      "name": "ProcessadorPagamentosTest.variosPix",
+      "setup": "",
+      "run": "gradle test --tests br.ufrn.imd.ProcessadorPagamentosTest.variosPix",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 1
+    }
+  ]
+}
